@@ -4,27 +4,48 @@
 
 //Passport dimension//
 
-if <true>
+{if <true>
 
-then height=111 ; weight=333 
+then height=111 ; weight=333 }
 
 
 
 //Photo ID// 
 
-if <true>
+{if <true>
 
-then height=111 ; weight=333 
-
-// - //
+then height=111 ; weight=333 }
 
 // - //
 
-// - //
+{if <true>
+
+then height=111 ; weight=333 }
 
 // - //
 
+{if <true>
+
+then height=111 ; weight=333 }
+
 // - //
+
+{if <true>
+
+then height=111 ; weight=333 }
+
+// - //
+
+{if <true>
+
+then height=111 ; weight=333 }
+
+// - //
+
+{if <true>
+
+then height=111 ; weight=333 }
+
 
 end document/ 
 
