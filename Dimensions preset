@@ -4,15 +4,18 @@
 
 //Passport dimension//
 
-{if <true>
+{
+if <true>
 
-then height=111 ; weight=333 }
+then height=111 ; weight=333 
+}
 
 
 
 //Photo ID// 
 
-{if <true>
+{
+if <true>
 
 then height=111 ; weight=333 }
 
@@ -20,31 +23,70 @@ then height=111 ; weight=333 }
 
 {if <true>
 
-then height=111 ; weight=333 }
+then height=111 ; weight=333
+}
 
-// - //
+// Government I.D //
 
-{if <true>
+{
+if <true>
 
-then height=111 ; weight=333 }
+then height=111 ; weight=333 
+}
 
-// - //
+//Avatar icon //
 
-{if <true>
+{
+if <true>
 
-then height=111 ; weight=333 }
+then height=111 ; weight=333 
+}
 
-// - //
+// Facebook banner //
 
-{if <true>
+{
+if <true>
 
-then height=111 ; weight=333 }
+then height=111 ; weight=333 
+}
 
-// - //
+// Twitter header +small example + mobile//
 
-{if <true>
+{
+if <true>
 
-then height=111 ; weight=333 }
+then height=111 ; weight=333 
+}
+
+// Wikipedia image //
+
+
+{
+if <true>
+
+then height=111 ; weight=333 
+}
+
+// LinkedIn article image //
+
+
+{
+if <true>
+
+then height=111 ; weight=333 
+}
+
+
+// LinkedIn banner //
+
+
+{
+if <true>
+
+then height=111 ; weight=333 
+}
+
+
 
 
 end document/ 
