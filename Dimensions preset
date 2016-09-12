@@ -13,12 +13,8 @@
 
 //Passport dimension//
 
-{
-if <true>
-
-then height=111 ; weight=333 
-}
-
+/* pPassport Dimension */
+span[img] {height=11px ; weight=3px ;}
 
 
 //Photo ID// 
