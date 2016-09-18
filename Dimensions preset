@@ -13,83 +13,99 @@
 
 //Passport dimension//
 
-/* pPassport Dimension */
-span[img] {height=11px ; weight=3px ;}
+/* Passport Dimension */
+span[img] {height=XXpx ; weight=XXpx ;}
 
 
 //Photo ID// 
 
 {
-if <true>
-
-then height=111 ; weight=333 }
+click
+{
+span[img] {height=XXpx ; weight=XXpx ;
+}
 
 // - //
 
-{if <true>
-
-then height=111 ; weight=333
+click
+{
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 // Government I.D //
 
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 //Avatar icon //
 
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 // Facebook banner //
 
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 // Twitter header +small example + mobile//
 
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 // Wikipedia image //
 
-
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 // LinkedIn article image //
 
-
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
 
 
 // LinkedIn banner //
 
-
+click
 {
-if <true>
-
-then height=111 ; weight=333 
+span[img] {height=XXpx ; weight=XXpx ;
 }
+
+
+/// Google Adwords banner
+
+click
+{
+span[img] {height=XXpx ; weight=XXpx ;
+}
+
+
+///Youtube display ad (upper side)
+
+click
+{
+span[img] {height=XXpx ; weight=XXpx ;
+}
+
+
+///Youtube display (Right side)
+
+click
+{
+span[img] {height=XXpx ; weight=XXpx ;
+}
+
 
 
 
