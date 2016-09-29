@@ -2,7 +2,7 @@
 
 
 Lightweight image manipulation program focused on simple image alteration. Comes preset with common image dimensions 
-(no need to guess. Dimension come preinstalled)
+(no need to guess. Dimensions come preinstalled)
 
 
 
@@ -11,3 +11,6 @@ O.S: Windows, Linux
 
 
 Mobile: iOS, Android
+
+
+Need to finish: GUI, Exact measures, final code
