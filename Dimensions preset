@@ -9,7 +9,7 @@
 	Youtube
 		Banner		-		2048 X 1152 px (4mb)
 		Channel Icon	-		800 X 800 px image 
-		Video thumbnai	l	-	 1280 x 720
+		Video thumbnail	-	 1280 x 720
 
 Twitter
 		Twitter Header - 1500 x 500 
@@ -47,7 +47,23 @@ Twitter
 
 
 >>>Advertisment
+
+	Billboard art sizes
+		4 sheet - 1016 x 1524 / 40 x 60
+		6 sheet - 1200 x 1800 / 47.24 x 70.87
+		12 sheet - 3048 x 1524 / 120 x 60
+		16 sheet - 2032 x 3048 / 80 x 120
+		32 sheet - 4064 x 3048 / 160 x 120
+		48 sheet - 6096 x 3048 / 240 x 120
+		64 sheet - 8128 x 3048 / 320 x 120
+		96 sheet - 12192 x 3048 / 480 x 120
+
+
 >>>Banners
+
+
+
+
 >>>Icon
 
 
@@ -148,10 +164,4 @@ span[img] {height=XXpx ; weight=XXpx ;
 }
 
 
-
-
-
-end document/ 
-
-
-// Allows you to choose from pre .   Passport photo- 4x4. //
+# Allows you to change your images into pre-set sizes 
