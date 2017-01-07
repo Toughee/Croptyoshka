@@ -15,7 +15,7 @@ The image formats that are supported are .gif , .png. , .jpeg, .jpg, .ico, .webp
 
 # O.S 
 
-Available for Windows. 
+Available for as a Web app and as a standalone application for Windows. 
 
 
 
