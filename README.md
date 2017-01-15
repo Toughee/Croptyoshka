@@ -21,3 +21,9 @@ Available for as a Web app and as a standalone application for Windows.
 # Codepen for app
 
 http://codepen.io/Toughee/pen/EZVxwz
+
+# Resources used to develop everything:
+
+http://pillow.readthedocs.io/en/4.0.x/#
+
+file:///C:/Users/Marco/Desktop/Program%20-%20New%20road/index.html
