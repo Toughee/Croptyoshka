@@ -5,6 +5,9 @@ Croptyoshka is an open source, image editing software designed to make your work
 
 # How to use it
 
+![alt tag](https://github.com/Toughee/Croptyoshka/blob/master/Demo%20images/splash%20page1.PNG)
+
+
 Just drag the image into the window and change it to what you wish. You can also edit your images with effect presets.
 
 Whether you're a designer, photographer, copywriter, web developer, or a just a regular web user, Croptyoshka is guaranteed to help you out immenesly.
