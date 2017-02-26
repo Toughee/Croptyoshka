@@ -23,7 +23,8 @@ Available for as a Web app and as a standalone application for Windows.
 
 # Codepen for app
 
-http://codepen.io/Toughee/pen/EZVxwz
+http://codepen.io/Toughee/pen/QdKjrN
+
 
 # Resources used to develop everything:
 
