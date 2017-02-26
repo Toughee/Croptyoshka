@@ -1,3 +1,4 @@
+
 /*
 filedrag.js - HTML5 File Drag & Drop demonstration
 Featured on SitePoint.com
@@ -42,7 +43,6 @@ Developed by Craig Buckler (@craigbuckler) of OptimalWorks.net
 
 	}
 
-
 	// output file information
 	function ParseFile(file) {
 
@@ -80,7 +80,6 @@ Developed by Craig Buckler (@craigbuckler) of OptimalWorks.net
 
 	}
 
-
 	// initialize
 	function Init() {
 
@@ -106,11 +105,8 @@ Developed by Craig Buckler (@craigbuckler) of OptimalWorks.net
 		}
 
 	}
-
 	// call initialization file
 	if (window.File && window.FileList && window.FileReader) {
 		Init();
 	}
-
-
 })();
