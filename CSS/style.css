@@ -2,7 +2,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  position: center;
+  position: absolute;
   background: #333;
 }
 
@@ -12,11 +12,10 @@ ul li {
   position: center;
   float: left;
   background: #313030;
-/*    //555555 - ul color default */
 }
 
-
 li ul { display: none; }
+
 ul li a {
   display: block;
   padding: 1em;
@@ -24,24 +23,17 @@ ul li a {
   white-space: nowrap;
   color: #fff;
 }
-ul li a:hover { background: #2c3e50; }
-
+ul li a:hover { 
+   background: #2c3e50; 
+}
 
 li:hover > ul {
 display: block;
   position: absolute;
 }
  
-
 li:hover li { float: none; }
  
-
-/* 2c3e50
- */
-
-/* 313030 */
-
-
 li:hover a { background: #313030; }
  
 li:hover li a:hover { background: #2c3e50; }
@@ -54,19 +46,6 @@ ul ul ul {
   left: 100%;
   top: 0;
 }
-
-
-ul ul ul {
-  left: 100%;
-  top: 0;
-}
-
-
-
-/* ul ul ul ul
-
-
-*/
 
 h1 {
 	font-family: Lobster;
