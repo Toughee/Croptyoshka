@@ -2,7 +2,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  position: absolute;
+  position: relative;
   background: #333;
 }
 
@@ -42,10 +42,9 @@ li:hover li a:hover { background: #2c3e50; }
    border-top: #333; 
 }
 
-ul ul ul {
-  left: 100%;
-  top: 0;
-}
+/*
+=====================Fonts============================
+*/
 
 h1 {
 	font-family: Lobster;
