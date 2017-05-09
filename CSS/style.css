@@ -1,58 +1,57 @@
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  position: center;
-  background: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: center;
+    background: #333;
 }
 ul li {
-  display: block;
-  position: center;
-  float: left;
-  background: #313030;
+    display: block;
+    position: center;
+    float: left;
+    background: #313030;
 }
-li ul { display: none; }
+li ul {
+    display: none;
+}
 ul li a {
-  display: block;
-  padding: 1em;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #fff;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
 }
-ul li a:hover { 
-   background: #2c3e50; 
+ul li a:hover {
+    background: #2c3e50;
 }
 li:hover > ul {
-display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
- 
-li:hover li { float: none; }
- 
-li:hover a { background: #313030; }
- 
-li:hover li a:hover { background: #2c3e50; }
- 
-.main-navigation li ul li { 
-   border-top: #333; 
+li:hover li {
+    float: none;
 }
-
+li:hover a {
+    background: #313030;
+}
+li:hover li a:hover {
+    background: #2c3e50;
+}
+.main-navigation li ul li {
+    border-top: #333;
+}
 ul ul ul {
-  left: 100%;
-  top: 0;
+    left: 100%;
+    top: 0;
 }
-
 h1 {
     font-family: Lobster;
-    text-align: center; 
+    text-align: center;
     font-size: 95px;
 }
-
-
-
 h2 {
     font-family: Lobster;
-    text-align: center; 
+    text-align: center;
     font-size: 35px;
 }
 h3 {
@@ -66,141 +65,118 @@ h4 {
     font-size: 20px;
 }
 body {
-	background-color: #F1F3DC;
+    background-color: #F1F3DC;
 }
 p {
-    text-align: center; 
+    text-align: center;
     font-size: 18px;
-    }
+}
 .modalDialog {
-	position: absolute;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 200ms ease-in;
-	-moz-transition: opacity 200ms ease-in;
-	transition: opacity 200ms ease-in;
-	pointer-events: none;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    pointer-events: none;
 }
-
-
 .modalDialog:target {
-	opacity:1;
-	pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
-
 .modalDialog > div {
-	width: 600px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #fff);
-	background: -webkit-linear-gradient(#fff, #fff);
-	background: -o-linear-gradient(#fff, #fff);
+    width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #fff);
+    background: -webkit-linear-gradient(#fff, #fff);
+    background: -o-linear-gradient(#fff, #fff);
 }
-
 .close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
-	text-decoration: none;
-	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
 }
-
-.close:hover { background: #00d9ff; }
-
+.close:hover {
+    background: #00d9ff;
+}
 -webkit-transition: opacity 400ms ease-in;
 -moz-transition: opacity 400ms ease-in;
 transition: opacity 400ms ease-in;
-
-
-legend
-{
-	font-weight: bold;
-	color: #333;
+legend {
+    font-weight: bold;
+    color: #333;
 }
-
-#filedrag
-{
-	display: none;
-	font-weight: bold;
-	text-align: center;
-	padding: 1em 0;
-	margin: 1em 0;
-	color: #555;
-	border: 2px dashed #555;
-	border-radius: 7px;
-	cursor: default;
+#filedrag {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0;
+    margin: 1em 0;
+    color: #555;
+    border: 2px dashed #555;
+    border-radius: 7px;
+    cursor: default;
 }
-
-#filedrag.hover
-{
-	color: #f00;
-	border-color: #f00;
-	border-style: solid;
-	box-shadow: inset 0 3px 4px #888;
+#filedrag.hover {
+    color: #f00;
+    border-color: #f00;
+    border-style: solid;
+    box-shadow: inset 0 3px 4px #888;
 }
-
-img
-{
-	max-width: 100%;
+img {
+    max-width: 100%;
 }
-
-pre
-{
-	width: 95%;
-	height: 8em;
-	font-family: monospace;
-	font-size: 0.9em;
-	padding: 1px 2px;
-	margin: 0 0 1em auto;
-	border: 1px inset #666;
-	background-color: #eee;
-	overflow: auto;
+pre {
+    width: 95%;
+    height: 8em;
+    font-family: monospace;
+    font-size: 0.9em;
+    padding: 1px 2px;
+    margin: 0 0 1em auto;
+    border: 1px inset #666;
+    background-color: #eee;
+    overflow: auto;
 }
-
-#messages
-{
-	padding: 0 10px;
-	margin: 1em 0;
-	border: 1px solid #999;
+#messages {
+    padding: 0 10px;
+    margin: 1em 0;
+    border: 1px solid #999;
 }
-
-#progress p
-{
-	display: block;
-	width: 240px;
-	padding: 2px 5px;
-	margin: 2px 0;
-	border: 1px inset #446;
-	border-radius: 5px;
-	background: #eee url("progress.png") 100% 0 repeat-y;
+#progress p {
+    display: block;
+    width: 240px;
+    padding: 2px 5px;
+    margin: 2px 0;
+    border: 1px inset #446;
+    border-radius: 5px;
+    background: #eee url("progress.png") 100% 0 repeat-y;
 }
-
-#progress p.success
-{
-	background: #0c0 none 0 0 no-repeat;
+#progress p.success {
+    background: #0c0 none 0 0 no-repeat;
 }
-
-#progress p.failed
-{
-	background: #c00 none 0 0 no-repeat;
+#progress p.failed {
+    background: #c00 none 0 0 no-repeat;
 }
