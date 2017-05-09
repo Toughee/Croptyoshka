@@ -2,20 +2,16 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  position: absolute;
+  position: center;
   background: #333;
 }
-
- 
 ul li {
   display: block;
   position: center;
   float: left;
   background: #313030;
 }
-
 li ul { display: none; }
-
 ul li a {
   display: block;
   padding: 1em;
@@ -26,7 +22,6 @@ ul li a {
 ul li a:hover { 
    background: #2c3e50; 
 }
-
 li:hover > ul {
 display: block;
   position: absolute;
