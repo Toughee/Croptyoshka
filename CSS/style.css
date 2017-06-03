@@ -46,46 +46,33 @@ ul ul ul {
   left: 100%;
   top: 0;
 }
-
 h1 {
 	font-family: Lobster;
     text-align: center; 
     font-size: 95px;
 }
-
-
-
 h2 {
 	font-family: Lobster;
     text-align: center; 
     font-size: 35px;
 }
-
-
-
 h3 {
     text-align: center;
     font-family: Helvetica;
     font-size: 22px;
 }
-
-
 h4 {
     text-align: left;
     font-family: Helvetica;
     font-size: 20px;
 }
-
-
 body {
 	background-color: #F1F3DC;
 }
-
 p {
     text-align: center; 
     font-size: 18px;
     }
-
 .modalDialog {
 	position: absolute;
 	font-family: Arial, Helvetica, sans-serif;
